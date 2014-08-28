@@ -1,0 +1,789 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* SMALL BUTTONS */
+.button-small {
+	
+	color: #ffffff !important;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 17px;
+	margin: 0 1em 1em 15px;
+	padding: 5px 20px 5px 5px;
+	position: relative;
+	text-decoration: none !important;
+	
+}
+
+	.button-small span {
+		
+		height: 27px;
+		left: -15px;
+		position: absolute;
+		top: 0;
+		width: 15px;
+		
+	}
+	
+.button-small:hover { text-decoration: none; }
+
+
+/* COLORS */
+
+.rounded-blue { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right 0; text-shadow: 0 1px 1px #0c5b76; }
+.rounded-blue:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -27px; }
+.rounded-blue span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left 0; }
+.rounded-blue:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -27px; }
+
+.rounded-orange { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -54px; text-shadow: 0 1px 1px #9b5510; }
+.rounded-orange:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -81px; }
+.rounded-orange span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -54px; }
+.rounded-orange:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -81px; }
+
+.rounded-green { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -108px; text-shadow: 0 1px 1px #4b760c; }
+.rounded-green:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -135px; }
+.rounded-green span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -108px; }
+.rounded-green:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -135px; }
+
+.rounded-purple { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -162px; text-shadow: 0 1px 1px #5b1485; }
+.rounded-purple:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -189px; }
+.rounded-purple span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -162px; }
+.rounded-purple:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -189px; }
+
+.rounded-pink { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -216px; text-shadow: 0 1px 1px #7f0e4d; }
+.rounded-pink:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -243px; }
+.rounded-pink span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -216px; }
+.rounded-pink:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -243px; }
+
+.rounded-red { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -270px; text-shadow: 0 1px 1px #911a1a; }
+.rounded-red:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -297px; }
+.rounded-red span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -270px; }
+.rounded-red:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -297px; }
+
+.rounded-grey { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -324px; text-shadow: 0 1px 1px #535353; }
+.rounded-grey:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -351px; }
+.rounded-grey span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -324px; }
+.rounded-grey:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -351px; }
+
+.rounded-light { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -378px; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.rounded-light:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -405px; }
+.rounded-light span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -378px; }
+.rounded-light:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -405px; }
+
+.rounded-black { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -432px; text-shadow: 0 1px 1px #000000; }
+.rounded-black:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -459px; }
+.rounded-black span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -432px; }
+.rounded-black:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -459px; }
+
+.rounded-grey-glossy { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -486px; text-shadow: 0 1px 1px #535353; }
+.rounded-grey-glossy:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -513px; }
+.rounded-grey-glossy span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -486px; }
+.rounded-grey-glossy:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -513px; }
+
+.rounded-light-glossy { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -540px; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.rounded-light-glossy:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -567px; }
+.rounded-light-glossy span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -540px; }
+.rounded-light-glossy:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -567px; }
+
+.square-blue { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right 0; text-shadow: 0 1px 1px #0c5b76; }
+.square-blue:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -27px; }
+.square-blue span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left 0; }
+.square-blue:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -27px; }
+
+.square-orange { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -54px; text-shadow: 0 1px 1px #9b5510; }
+.square-orange:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -81px; }
+.square-orange span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -54px; }
+.square-orange:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -81px; }
+
+.square-green { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -108px; text-shadow: 0 1px 1px #4b760c; }
+.square-green:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -135px; }
+.square-green span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -108px; }
+.square-green:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -135px; }
+
+.square-purple { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -162px; text-shadow: 0 1px 1px #5b1485; }
+.square-purple:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -189px; }
+.square-purple span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -162px; }
+.square-purple:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -189px; }
+
+.square-pink { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -216px; text-shadow: 0 1px 1px #7f0e4d; }
+.square-pink:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -243px; }
+.square-pink span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -216px; }
+.square-pink:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -243px; }
+
+.square-red { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -270px; text-shadow: 0 1px 1px #911a1a; }
+.square-red:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -297px; }
+.square-red span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -270px; }
+.square-red:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -297px; }
+
+.square-grey { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -324px; text-shadow: 0 1px 1px #535353; }
+.square-grey:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -351px; }
+.square-grey span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -324px; }
+.square-grey:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -351px; }
+
+.square-light { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -378px; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.square-light:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -405px; }
+.square-light span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -378px; }
+.square-light:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -405px; }
+
+.square-black { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -432px; text-shadow: 0 1px 1px #000000; }
+.square-black:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -459px; }
+.square-black span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -432px; }
+.square-black:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -459px; }
+
+.square-grey-glossy { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -486px; text-shadow: 0 1px 1px #535353; }
+.square-grey-glossy:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -513px; }
+.square-grey-glossy span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -486px; }
+.square-grey-glossy:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -513px; }
+
+.square-light-glossy { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -540px; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.square-light-glossy:hover { background: url(../images/shortcodes/square-buttons-right.png) no-repeat right -567px; }
+.square-light-glossy span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -540px; }
+.square-light-glossy:hover span { background: url(../images/shortcodes/square-buttons-left.png) no-repeat left -567px; }
+
+
+
+/* ICON BUTTONS */
+
+
+.button-icon {
+	
+	background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -378px;
+	text-shadow: 0 1px 1px #ffffff !important;
+	color: #464646 !important;
+	
+	font: normal 12px/18px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 17px;
+	margin: 0 1em 1em 13px;
+	padding: 5px 20px 5px 0;
+	position: relative;
+	text-decoration: none !important;
+	
+}
+
+	.button-icon span {
+	
+		background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -378px;
+		
+		height: 27px;
+		left: -13px;
+		position: absolute;
+		top: 0;
+		width: 13px;
+		
+	}
+	
+	.button-icon em { width: 16px; height: 16px; float: left; margin-right: 5px; }
+	
+	.button-icon:hover { background: url(../images/shortcodes/rounded-buttons-right.png) no-repeat right -405px; }
+	.button-icon:hover span { background: url(../images/shortcodes/rounded-buttons-left.png) no-repeat left -405px; }
+	
+.button-icon:hover { text-decoration: none; }
+
+
+.icon-accept em { background: url(../images/shortcodes/icons/accept.png) no-repeat top left; }
+.icon-add em { background: url(../images/shortcodes/icons/add.png) no-repeat top left; }
+.icon-anchor em { background: url(../images/shortcodes/icons/anchor.png) no-repeat top left; }
+.icon-cancel em { background: url(../images/shortcodes/icons/cancel.png) no-repeat top left; }
+.icon-clock em { background: url(../images/shortcodes/icons/clock.png) no-repeat top left; }
+.icon-coins em { background: url(../images/shortcodes/icons/coins.png) no-repeat top left; }
+.icon-delete em { background: url(../images/shortcodes/icons/delete.png) no-repeat top left; }
+.icon-heart em { background: url(../images/shortcodes/icons/heart.png) no-repeat top left; }
+.icon-hourglass em { background: url(../images/shortcodes/icons/hourglass.png) no-repeat top left; }
+.icon-house em { background: url(../images/shortcodes/icons/house.png) no-repeat top left; }
+.icon-information em { background: url(../images/shortcodes/icons/information.png) no-repeat top left; }
+.icon-lightbulb em { background: url(../images/shortcodes/icons/lightbulb.png) no-repeat top left; }
+.icon-lightning em { background: url(../images/shortcodes/icons/lightning.png) no-repeat top left; }
+.icon-lock em { background: url(../images/shortcodes/icons/lock.png) no-repeat top left; }
+.icon-palette em { background: url(../images/shortcodes/icons/palette.png) no-repeat top left; }
+.icon-refresh em { background: url(../images/shortcodes/icons/refresh.png) no-repeat top left; }
+.icon-switch em { background: url(../images/shortcodes/icons/switch.png) no-repeat top left; }
+.icon-asterisk em { background: url(../images/shortcodes/icons/asterisk.png) no-repeat top left; }
+.icon-bell em { background: url(../images/shortcodes/icons/bell.png) no-repeat top left; }
+.icon-bomb em { background: url(../images/shortcodes/icons/bomb.png) no-repeat top left; }
+.icon-bricks em { background: url(../images/shortcodes/icons/bricks.png) no-repeat top left; }
+.icon-briefcase em { background: url(../images/shortcodes/icons/briefcase.png) no-repeat top left; }
+.icon-cake em { background: url(../images/shortcodes/icons/cake.png) no-repeat top left; }
+.icon-color em { background: url(../images/shortcodes/icons/color.png) no-repeat top left; }
+.icon-disconnect em { background: url(../images/shortcodes/icons/disconnect.png) no-repeat top left; }
+.icon-door em { background: url(../images/shortcodes/icons/door.png) no-repeat top left; }
+.icon-emoticon em { background: url(../images/shortcodes/icons/emoticon.png) no-repeat top left; }
+.icon-feed em { background: url(../images/shortcodes/icons/feed.png) no-repeat top left; }
+
+
+
+/* BIG BUTTONS */
+.button-big {
+	
+	color: #ffffff !important;
+	font: bold 16px/22px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 37px;
+	margin: 0 1em 1em 16px;
+	padding: 10px 20px 11px 5px;
+	position: relative;
+	text-decoration: none !important;
+	
+}
+
+.button-big:hover { text-decoration: none; }
+
+	.button-big em {
+		
+		font: italic 11px/14px Arial, Helvetica, sans-serif;
+		display: block;
+		
+	}
+
+	.button-big span {
+		
+		height: 58px;
+		left: -16px;
+		position: absolute;
+		top: 0;
+		width: 16px;
+		
+	}
+	
+.big-blue em { color: #cfe2e7; }
+.big-blue { background:url(../images/shortcodes/big-right.png) no-repeat right 0; text-shadow: 0 1px 1px #0c5b76; }
+.big-blue:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -58px; }
+.big-blue span { background: url(../images/shortcodes/big-left.png) no-repeat left 0; }
+.big-blue:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -58px; }
+	
+.big-orange em { color: #e2d6c2; }
+.big-orange { background:url(../images/shortcodes/big-right.png) no-repeat right -116px; text-shadow: 0 1px 1px #9b5510; }
+.big-orange:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -174px; }
+.big-orange span { background: url(../images/shortcodes/big-left.png) no-repeat left -116px; }
+.big-orange:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -174px; }
+	
+.big-green em { color: #d8dfbe; }
+.big-green { background:url(../images/shortcodes/big-right.png) no-repeat right -232px; text-shadow: 0 1px 1px #4b760c; }
+.big-green:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -290px; }
+.big-green span { background: url(../images/shortcodes/big-left.png) no-repeat left -232px; }
+.big-green:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -290px; }
+	
+.big-purple em { color: #d3bddc; }
+.big-purple { background:url(../images/shortcodes/big-right.png) no-repeat right -348px; text-shadow: 0 1px 1px #5b1485; }
+.big-purple:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -406px; }
+.big-purple span { background: url(../images/shortcodes/big-left.png) no-repeat left -348px; }
+.big-purple:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -406px; }
+	
+.big-pink em { color: #dcb9ce; }
+.big-pink { background:url(../images/shortcodes/big-right.png) no-repeat right -464px; text-shadow: 0 1px 1px #7f0e4d; }
+.big-pink:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -522px; }
+.big-pink span { background: url(../images/shortcodes/big-left.png) no-repeat left -464px; }
+.big-pink:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -522px; }
+	
+.big-red em { color: #ddb9b9; }
+.big-red { background:url(../images/shortcodes/big-right.png) no-repeat right -580px; text-shadow: 0 1px 1px #911a1a; }
+.big-red:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -638px; }
+.big-red span { background: url(../images/shortcodes/big-left.png) no-repeat left -580px; }
+.big-red:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -638px; }
+	
+.big-grey em { color: #eeeeee; }
+.big-grey { background:url(../images/shortcodes/big-right.png) no-repeat right -696px; text-shadow: 0 1px 1px #535353; }
+.big-grey:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -754px; }
+.big-grey span { background: url(../images/shortcodes/big-left.png) no-repeat left -696px; }
+.big-grey:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -754px; }
+	
+.big-light em { color: #888888; }
+.big-light { background:url(../images/shortcodes/big-right.png) no-repeat right -812px; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.big-light:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -870px; }
+.big-light span { background: url(../images/shortcodes/big-left.png) no-repeat left -812px; }
+.big-light:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -870px; }
+	
+.big-black em { color: #dddddd; }
+.big-black { background:url(../images/shortcodes/big-right.png) no-repeat right -928px; text-shadow: 0 1px 1px #000000; }
+.big-black:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -986px; }
+.big-black span { background: url(../images/shortcodes/big-left.png) no-repeat left -928px; }
+.big-black:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -986px; }
+	
+.big-grey-glossy em { color: #eeeeee; }
+.big-grey-glossy { background:url(../images/shortcodes/big-right.png) no-repeat right -1044px; text-shadow: 0 1px 1px #535353; }
+.big-grey-glossy:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -1102px; }
+.big-grey-glossy span { background: url(../images/shortcodes/big-left.png) no-repeat left -1044px; }
+.big-grey-glossy:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -1102px; }
+	
+.big-light-glossy em { color: #888888; }
+.big-light-glossy { background:url(../images/shortcodes/big-right.png) no-repeat right -1160px; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.big-light-glossy:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -1218px; }
+.big-light-glossy span { background: url(../images/shortcodes/big-left.png) no-repeat left -1160px; }
+.big-light-glossy:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -1218px; }
+	
+.big-dashed em { color: #888888; }
+.big-dashed { background:url(../images/shortcodes/big-right.png) no-repeat right -1276px; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.big-dashed:hover { background:url(../images/shortcodes/big-right.png) no-repeat right -1334px; }
+.big-dashed span { background: url(../images/shortcodes/big-left.png) no-repeat left -1276px; }
+.big-dashed:hover span { background: url(../images/shortcodes/big-left.png) no-repeat left -1334px; }
+
+
+
+
+/* TOOLTIPS */
+
+.ddtooltip {
+	
+	position: relative;
+	
+}
+
+	.ddtooltip .tooltip-body {
+		
+		color: #ffffff;
+		display: none;
+		font: normal 12px/18px Arial, Helvetica, sans-serif;
+		padding: 12px 20px;
+		position: absolute;
+		left: 0;
+		bottom: 35px;
+		width: 200px;
+		
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		
+	}
+	
+		.ddtooltip .tooltip-body .tooltip-arrow {
+			
+			border: none;
+			bottom: -13px;
+			height: 13px;
+			left: 20px;
+			position: absolute;
+			width: 26px;
+		
+			border-radius: 0;
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+			
+		}
+		
+		
+.tooltip-blue .tooltip-body { border: 1px solid #317d9b; background: #1d8bb4 url(../images/shortcodes/tooltips/tooltip-blue.gif) repeat-x top left; text-shadow: 0 1px 1px #0c5b76; }
+.tooltip-blue .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-blue.png) no-repeat top left; }
+		
+.tooltip-orange .tooltip-body { border: 1px solid #be7125; background: #e97813 url(../images/shortcodes/tooltips/tooltip-orange.gif) repeat-x top left; text-shadow: 0 1px 1px #9f5513; }
+.tooltip-orange .tooltip-body .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-orange.png) no-repeat top left; }
+		
+.tooltip-red .tooltip-body { border: 1px solid #a01515; background: #c42828 url(../images/shortcodes/tooltips/tooltip-red.gif) repeat-x top left; text-shadow: 0 1px 1px #8e1818; }
+.tooltip-red .tooltip-body .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-red.png) no-repeat top left; }
+		
+.tooltip-green .tooltip-body { border: 1px solid #6e8a19; background: #70aa23 url(../images/shortcodes/tooltips/tooltip-green.gif) repeat-x top left; text-shadow: 0 1px 1px #537e1a; }
+.tooltip-green .tooltip-body .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-green.png) no-repeat top left; }
+		
+.tooltip-purple .tooltip-body { border: 1px solid #50158c; background: #7726bd url(../images/shortcodes/tooltips/tooltip-purple.gif) repeat-x top left; text-shadow: 0 1px 1px #411864; }
+.tooltip-purple .tooltip-body .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-purple.png) no-repeat top left; }
+		
+.tooltip-pink .tooltip-body { border: 1px solid #98195e; background: #c42173 url(../images/shortcodes/tooltips/tooltip-pink.gif) repeat-x top left; text-shadow: 0 1px 1px #6e0d3f; }
+.tooltip-pink .tooltip-body .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-pink.png) no-repeat top left; }
+		
+.tooltip-grey .tooltip-body { border: 1px solid #868686; background: #868686 url(../images/shortcodes/tooltips/tooltip-grey.gif) repeat-x top left; text-shadow: 0 1px 1px #222222; }
+.tooltip-grey .tooltip-body .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-grey.png) no-repeat top left; }
+		
+.tooltip-light .tooltip-body { border: 1px solid #bababa; background: #d8d8d8 url(../images/shortcodes/tooltips/tooltip-light.gif) repeat-x top left; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.tooltip-light .tooltip-body .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-light.png) no-repeat top left; }
+		
+.tooltip-black .tooltip-body { border: 1px solid #101010; background: #1d1d1d url(../images/shortcodes/tooltips/tooltip-black.gif) repeat-x top left; text-shadow: 0 1px 0 #000000; }
+.tooltip-black .tooltip-body .tooltip-arrow { background: url(../images/shortcodes/tooltips/arrow-black.png) no-repeat top left; }
+
+
+
+/* DDNotification */
+
+.ddnotification {
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+	color: #ffffff;
+	display: block;
+	font: normal 12px/18px Arial, Helvetica, sans-serif;
+	margin: 1em 0;
+	padding: 30px 30px 30px 90px;
+	position: relative;
+	
+}
+
+	.ddnotification span.icon {
+		
+		height: 37px;
+		left: 30px;
+		position: absolute;
+		top: 30px;
+		width: 36px;
+		
+	}
+	
+	.ddnotification span.close {
+		
+		background: url(../images/shortcodes/notifications/close.png) no-repeat top left;
+		cursor: pointer;
+		height: 13px;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		width: 13px;
+		
+	}
+	
+	
+.notification-error { background: #c02424 url(../images/shortcodes/notifications/error.gif) repeat-x top left; border: 1px solid #a01515; text-shadow: 0 1px 1px #6f1111; }
+.notification-error span.icon { background: url(../images/shortcodes/notifications/error-icon.png) no-repeat top left; }
+	
+.notification-success { background: #6ba623 url(../images/shortcodes/notifications/success.gif) repeat-x top left; border: 1px solid #6e8a19; text-shadow: 0 1px 1px #2d4103; }
+.notification-success span.icon { background: url(../images/shortcodes/notifications/success-icon.png) no-repeat top left; }
+	
+.notification-info { background: #1d86af url(../images/shortcodes/notifications/info.gif) repeat-x top left; border: 1px solid #317d9b; text-shadow: 0 1px 1px #064353; }
+.notification-info span.icon { background: url(../images/shortcodes/notifications/info-icon.png) no-repeat top left; }
+	
+.notification-alert { background: #e77414 url(../images/shortcodes/notifications/alert.gif) repeat-x top left; border: 1px solid #be7125; text-shadow: 0 1px 1px #6e3d05; }
+.notification-alert span.icon { background: url(../images/shortcodes/notifications/alert-icon.png) no-repeat top left; }
+	
+.notification-standard { background: #d7d7d7 url(../images/shortcodes/notifications/standard.gif) repeat-x top left; border: 1px solid #bababa; text-shadow: 0 1px 1px #ffffff; color: #464646 !important; }
+.notification-standard span.icon { background: url(../images/shortcodes/notifications/standard-icon.png) no-repeat top left; }
+
+.notification-standard span.close { background: url(../images/shortcodes/notifications/close.png) no-repeat bottom left; }
+
+
+
+/* LISTS */
+
+.ddlist { list-style: none; padding: 0; }
+
+.list-BW, .list-arrow, .list-hot, .list-tick, .list-star, .list-clip, .list-black, .list-blue, .list-red, .list-green, .list-yellow, .list-purple, .list-orange, .list-pink { list-style: none; padding: 0; }
+
+.list-BW li { background:url(../images/shortcodes/icons/bullet_BW.png) no-repeat left 7px; padding: 2px 0 2px 15px; }
+.list-arrow li { background:url(../images/shortcodes/icons/bullet_arrow.png) no-repeat left 7px; padding: 2px 0 2px 15px; }
+.list-tick li { background:url(../images/shortcodes/icons/bullet-tick.png) no-repeat left 5px; padding: 2px 0 2px 20px; }
+.list-hot li { background:url(../images/shortcodes/icons/bullet_flame.png) no-repeat left 6px; padding: 2px 0 2px 15px; }
+.list-star li { background:url(../images/shortcodes/icons/bullet_star.png) no-repeat left 7px; padding: 2px 0 2px 15px; }
+.list-clip li { background:url(../images/shortcodes/icons/bullet-paper-clip.png) no-repeat left 4px; padding: 2px 0 2px 20px; }
+.list-black li { background:url(../images/shortcodes/icons/bullet_black.png) no-repeat left 8px; padding: 2px 0 2px 15px; }
+.list-blue li { background:url(../images/shortcodes/icons/bullet_blue.png) no-repeat left 8px; padding: 2px 0 2px 15px; }
+.list-red li { background:url(../images/shortcodes/icons/bullet_red.png) no-repeat left 8px; padding: 2px 0 2px 15px; }
+.list-green li { background:url(../images/shortcodes/icons/bullet_green.png) no-repeat left 8px; padding: 2px 0 2px 15px; }
+.list-yellow li { background:url(../images/shortcodes/icons/bullet_yellow.png) no-repeat left 8px; padding: 2px 0 2px 15px; }
+.list-purple li { background:url(../images/shortcodes/icons/bullet_purple.png) no-repeat left 8px; padding: 2px 0 2px 15px; }
+.list-orange li { background:url(../images/shortcodes/icons/bullet_orange.png) no-repeat left 8px; padding: 2px 0 2px 15px; }
+.list-pink li { background:url(../images/shortcodes/icons/bullet_pink.png) no-repeat left 8px; padding: 2px 0 2px 15px; }
+
+
+
+
+/* IMAGE SLIDER */
+
+.ddimage-slider {
+	
+	background: #fafafa;
+	border: 1px dotted #e1e1e1;
+	
+	margin-bottom: 30px;
+	padding: 9px;
+	position: relative;
+	
+}
+
+	.ddimage-slider .shadow-left, .ddimage-slider .shadow-right {
+		
+		bottom: -21px;
+		height: 20px;
+		position: absolute;
+		width: 50%;
+		
+	}
+	
+	.ddimage-slider .shadow-left {
+		
+		background: url(../images/shortcodes/slider/shadow-left.png) no-repeat top left;
+		left: 0;
+		
+	}
+
+	.ddimage-slider .shadow-right {
+		
+		background: url(../images/shortcodes/slider/shadow-right.png) no-repeat top right;
+		right: 0;
+		
+	}
+	
+	.ddimage-slider-selector {
+		
+		background: url(../images/shortcodes/slider/selector-right.png) no-repeat top right;
+		list-style: none;
+		bottom: -31px;
+		height: 24px;
+		padding: 12px 0 0 0;
+		position: absolute;
+		z-index: 10;
+		
+	}
+	
+		.ddimage-slider-selector .border {
+			
+			background: url(../images/shortcodes/slider/selector-left.png) no-repeat top left;
+			
+			cursor: default;
+			height: 36px;
+			left: -12px;
+			position: absolute;
+			top: 0;
+			width: 12px;
+			
+		}
+		
+			.ddimage-slider-selector li {
+				
+				background: url(../images/shortcodes/slider/selector.png) no-repeat top left;
+				cursor: pointer;
+				
+				float: left;
+				height: 11px;
+				margin: 0 10px 0 0 !important;
+				width: 11px;
+				
+			}
+			
+			.ddimage-slider-selector li.current { background: url(../images/shortcodes/slider/selector-on.png) no-repeat top left; }
+			
+	.ddimage-slider .arrow-left, .ddimage-slider .arrow-right {
+		
+		cursor: pointer;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		width: 200px;
+		
+	}
+	
+	.ddimage-slider .arrow-left {
+		
+		left: 10px;
+		
+	}
+	
+		.ddimage-slider .arrow-left:hover {
+			
+			background: url(../images/shortcodes/slider/arrow-left.png) no-repeat left center;
+			
+		}
+			
+	.ddimage-slider .arrow-right {
+		
+		right: 10px;
+		
+	}
+	
+		.ddimage-slider .arrow-right:hover {
+			
+			background: url(../images/shortcodes/slider/arrow-right.png) no-repeat right center;
+			
+		}
+		
+	.ddimage-slider-images {
+		
+		list-style: none;
+		padding: 0;
+		position: relative;
+		margin: 0;
+		
+		overflow: hidden !important;
+		
+	}
+	
+		.ddimage-slider-images li {
+			
+			display: none;
+			margin: 0;
+			position: absolute;
+			
+		}
+		
+		
+		
+/* TOGGLES */
+
+.ddtoggle-open, .ddtoggle-closed {
+	
+	background: #f1f1f1;
+	border: 1px solid #e1e1e1;
+	margin: 1em 0;
+	padding: 20px 20px 0px 20px;
+	position: relative;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+}
+
+	.ddtoggle-open .toggle-handler, .ddtoggle-closed .toggle-handler {
+		
+		color: #666666;
+		cursor: pointer;
+		display: block !important;
+		margin-bottom: 20px;
+		font: normal 18px/28px Arial, Helvetica, sans-serif;
+		
+	}
+	
+	.ddtoggle-open .toggle-handler { background: url(../images/shortcodes/toggled/arrow-up.gif) no-repeat center right; }
+	
+	.ddtoggle-closed .toggle-handler { background: url(../images/shortcodes/toggled/arrow.gif) no-repeat center right; }
+	
+	.ddtoggle-closed .toggle-content, .ddtoggle-open .toggle-content { display: none; }
+	
+	
+	
+	
+/* TABBED */
+
+.ddtabbed {
+	
+	background: #f1f1f1;
+	border: 1px solid #e1e1e1;
+	
+	margin: 35px 0 2em 0;
+	
+	padding: 10px 10px 0 10px;
+	position: relative;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+}
+
+	.ddtabbed .tabbed {
+		
+		list-style: none;
+		margin: 0;
+		padding: 0 !important;
+		
+	}
+	
+		.ddtabbed .tabbed li {
+			
+			background: #ffffff;
+			padding: 20px 20px 20px 20px;
+	
+			border-radius: 10px;
+			margin: 0 0 10px 0;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			
+			display: none;
+			
+		}
+		
+			.ddtabbed .tabbed li p { margin: 0 0 1em 0; }
+		
+		.ddtabbed .tabbed li.current {
+			
+			display: block;
+			
+		}
+		
+	.ddtabbed .tabs {
+		
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		
+		top: -33px;
+		left: 13px;
+		
+	}
+	
+		.ddtabbed .tabs li {
+			
+			background: url(../images/shortcodes/tabbed/tab.gif) repeat-x top left;
+			border: 1px solid #e1e1e1;
+			border-bottom: none;
+			text-shadow: 0 1px 0 #ffffff;
+			
+			cursor: pointer;
+			float: left;
+			font: bold 12px/32px Arial, Helvetica, sans-serif;
+			color: #999999;
+			padding: 0 20px;
+			margin: 0 3px 0 0;
+			
+			-moz-border-radius-topright: 10px;
+			-moz-border-radius-topleft: 10px;
+			
+			-webkit-border-top-left-radius: 10px;
+			-webkit-border-top-right-radius: 10px;
+			
+		}
+		
+		.ddtabbed .tabs li.current {
+			
+			background: url(../images/shortcodes/tabbed/tab-on.gif) repeat-x top left;
+			color: #666666;
+			
+		}
+		
+		
+		
+/* CONTENT SLIDE */
+
+.ddslideshow {
+	
+	background: #f1f1f1;
+	border: 1px solid #e1e1e1;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+	padding: 7px;
+	
+}
+
+	.ddslideshow ul {
+		
+		background: #ffffff;
+		display: block;
+	
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		
+		list-style: none;
+		padding: 0;
+		position: absolute;
+		margin: 0;
+		
+	}
+	
+		.ddslideshow ul li {
+			
+			margin: 0;
+			display: inline;
+			
+		}
+
+.one-half, .one-third, .two-thirds,
+.one-fourth, .three-fourths, .one-fifth,
+.two-fifths, .three-fifths, .four-fifths,
+.one-sixth, .five-sixths { float: left; margin: 0 30px 30px 0; }
+.one { width: 960px; float: left; margin-bottom: 30px; }
+.one-half { width: 465px; }
+.one-third { width: 300px; }
+.two-thirds { width: 630px; }
+.one-fourth { width: 217px; }
+.three-fourths { width: 711px; }
+.one-fifth { width: 168px; }
+.two-fifths { width: 366px }
+.three-fifths { width: 564px; }
+.four-fifths { width: 762px; }
+.one-sixth { width: 135px; }
+.five-sixths { width: 795px; }
+.group { float: left; width: 100%; }
+.block { float: left; width: 100%; margin-bottom: 30px; }
+.last { margin-right: 0 !important; }
+.clear { clear: both; }

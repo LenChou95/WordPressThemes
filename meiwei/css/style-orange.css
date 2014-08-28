@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a { color: #e6930f; }
+a:hover { color: #c66713; }
+
+h1 { color: #e6930f; text-transform: lowercase; font-weight: bold; }
+
+h1 a, .anchor-title { color: #e6930f !important; }
+h1 a:hover, .anchor-title:hover { color: #c66713 !important; }
+
+	#header-border {
+		
+		background: #424242 url(../images/orange/header-border.gif) no-repeat top center;
+		
+	}
+	
+	
+	
+	
+/* MENU */
+
+
+		
+		#menu li span.hover {
+			
+			background: #c66713;
+			
+		}
+			
+				#menu li ul li {
+					
+					background: #c66713;
+					
+				}
+				
+					#menu li ul li span { display: none; background: #e6930f; }
+				
+				
+				
+/* SUBMENU */
+
+#submenu { background: #e6930f; }
+#submenu li a:hover, #submenu li.current_page_item a { background: #c66713; }
+
+.show-submenu { background: url(../images/orange/show-submenu.png) no-repeat top left !important; }
+
+/* PORTFOLIO */
+
+	.more { background: #f1f1f1 url(../images/orange/portfolio-arrow.png) no-repeat top right; }
+	.more:hover { background: #f1f1f1 url(../images/orange/portfolio-arrow.png) no-repeat bottom right; }
+	.minus {  background: #f1f1f1 url(../images/orange/portfolio-arrow.png) no-repeat top left; }
+	.minus:hover {  background: #f1f1f1 url(../images/orange/portfolio-arrow.png) no-repeat bottom left; }
+				
+					.portfolio-slide ul li ul li {
+						
+						background: url(../images/orange/portfolio-selector.png) no-repeat bottom left;
+						
+					}
+					
+					.portfolio-slide ul li ul li.currentSel {
+						
+						background: url(../images/orange/portfolio-selector.png) no-repeat top left;
+						
+					}
+					
+					
+					
+					
+					
+/* BLOG */
+
+
+		
+			.blog-image .comments a {
+				
+				background: url(../images/orange/blog-comments.png) no-repeat top left;
+				
+			}

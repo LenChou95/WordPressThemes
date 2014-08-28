@@ -1,0 +1,786 @@
+@charset "utf-8";
+
+body {
+	
+	padding: 0; margin: 0;
+	
+}
+
+img {
+	
+	border: none;
+	
+}
+
+#ddpanel-wrapper {
+	
+	background: url(images/admin-bg.JPG) fixed repeat top left;
+	color: #3b3d44;
+	font: normal 12px/18px Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 0 #ffffff;
+	width: 100%;
+	padding-bottom: 50px;
+	position: relative;
+	
+}
+
+/* HEADER */
+#ddpanel-header {
+	
+	background: url(images/header-bg.gif) repeat-x top left;
+	height: 67px;
+	width: 100%;
+	
+}
+
+/* LOGO */
+#ddpanel-logo {
+	
+	float: left;
+	position: relative;
+	
+}
+
+	#ddpanel-logo span {
+		
+		background: url(images/logo.gif) no-repeat top left;
+		cursor: pointer;
+		display: block;
+		height: 60px;
+		position: relative;
+		width: 182px;
+		z-index: 15;
+		
+	}
+	
+	#ddpanel-logo span.hovered {
+		
+		background: url(images/logo-hover.gif) no-repeat top left;
+		display: none;
+		left: 0;
+		position: absolute;
+		top: 0;
+		z-index: 20;
+		
+	}
+	
+	#ddpanel-logo ul {
+		
+		border-right: 1px solid #999999;
+		border-left: 1px solid #999999;
+		display: none;
+		left: 0;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 60px;
+		width: 180px;
+		z-index: 10;
+		
+		box-shadow: 0 0 7px #939393;
+		-moz-box-shadow: 0 0 7px #939393;
+		-webkit-box-shadow: 0 0 7px #939393;
+		
+	}
+	
+		#ddpanel-logo ul li {
+			
+			background: url(images/logo-menu-bg.gif) repeat-x top left;
+			border-bottom: 1px solid #999999;
+			line-height: 60px;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			
+		}
+		
+			#ddpanel-logo ul li span {
+				
+				background: url(images/logo-menu-bg-hover.gif) repeat-x top left;
+				display: none;
+				height: 60px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 180px;
+				
+			}
+		
+			#ddpanel-logo ul li a {
+				
+				color: #3b3d44;
+				display: block;
+				font-weight: bold;
+				outline: none;
+				padding: 0 0 0 22px;
+				position: relative;
+				text-decoration: none;
+				z-index: 15;
+				
+			}
+			
+/* MENU */
+
+#ddpanel-menu {
+	
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	
+}
+
+	#ddpanel-menu ul {
+		
+		border-left: 1px solid #999999;
+		height: 60px;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	
+		#ddpanel-menu ul li {
+			
+			border-right: 1px solid #999999;
+			float: left;
+			position: relative;
+			
+		}
+		
+			#ddpanel-menu ul li div {
+				
+				background: url(images/menu-a-border.gif) no-repeat top left;
+				cursor: pointer;
+				display: block;
+				height: 40px;
+				padding-top: 20px;
+				position: relative;
+				text-align: center;
+				text-decoration: none;
+				width: 59px;
+				
+			}
+			
+			#ddpanel-menu ul li.current div {
+				
+				background: url(images/menu-a-current.gif) no-repeat top left;
+				
+			}
+			
+			#ddpanel-menu ul li div img {
+				
+				position: relative;
+				z-index: 20;
+				
+			}
+			
+			#ddpanel-menu ul li div span {
+				
+				background: url(images/menu-a-hover.gif) no-repeat top left;
+				display: none;
+				height: 60px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 59px;
+				
+			}
+			
+			#ddpanel-menu ul li p.title {
+				
+				background: #f2f2f2 url(images/white-dot.gif) repeat-x top left;
+				border: 1px solid #c6c6c6;
+				display: none;
+				right: 0;
+				padding: 4px 10px;
+				position: absolute;
+				text-align: left;
+				top: 47px;
+				white-space: pre;
+				z-index: 20;
+				
+				border-radius: 3px;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				
+			}
+			
+				#ddpanel-menu ul li p.title span {
+					
+					background: url(images/tooltip-arrow.png) no-repeat top left;
+					height: 9px;
+					position: absolute;
+					right: 20px;
+					top: -8px;
+					width: 16px;
+					
+				}
+				
+/* CONTENT */
+
+#ddpanel-content {
+	
+	background: white;
+	border: 1px solid white;
+	margin: 60px auto 0px auto;
+	padding: 30px;
+	position: relative;
+	width: 690px;
+
+        -moz-box-shadow:0 0 7px #393939;
+        
+        -moz-border-radius:0px 6px 6px 6px;
+
+	/* Linux Browsers */
+	-khtml-border-radius:0px 6px 6px 6px;
+
+	/* Webkit */
+	-webkit-border-radius:0px 6px 6px 6px;
+
+	/* CSS3 */
+	border-radius:0px 6px 6px 6px;
+
+
+
+}
+
+.block {
+	
+	background: url(images/content-block-bg.gif) repeat-x bottom left;
+	margin-bottom: 25px;
+	padding-bottom: 30px;
+	position: relative;
+	
+}
+
+	.info {
+		
+		font-weight: bold;
+		font-size: 13px;
+		
+	}
+	
+	.info-icon {
+		
+		float: left;
+		margin: 3px 30px 0 20px;
+		
+	}
+		
+		.save-changes-top {
+			
+			position: absolute;
+			right: 0;
+			top: -29px;
+			
+		}
+		
+/* LAYOUTS */
+
+.ddpanel-layout ul {
+	
+	display: block;
+	margin-top: 40px;
+	height: 80px;
+	
+}
+
+	.ddpanel-layout ul li {
+		
+		float: right;
+		width: 160px;
+		
+	}
+	
+		.ddpanel-layout ul li img {
+			
+			cursor: pointer;
+			background: #ffffff;
+			border: 1px solid #ffffff;
+			padding: 4px;
+			
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			
+		}
+		
+		.ddpanel-layout ul li img:hover {
+			
+			border: 1px solid #e9e9e9;
+			background: #f1f1f1;
+			
+		}
+		
+		.ddpanel-layout ul li.current img {
+			
+			border: 1px solid #65bbde;
+			background: #b4dff0;
+			
+		}
+		
+/* FIELDS */
+
+label {
+	
+	display: block;
+	font: bold 14px/18px Arial, Helvetica, sans-serif;
+	margin-bottom: 8px;
+	letter-spacing: -1px;
+	
+}
+
+.colorField {
+	
+	color: #ffffff !important;
+	border: 1px solid #b7b7b7 !important;
+	border-bottom: 1px solid #ffffff !important;
+	font-size: 11px !important;
+	padding: 10px 10px 11px 10px !important;
+	text-shadow: 0 1px 1px #000000 !important;
+	
+	border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	
+}
+
+.textField, .textArea {
+	
+	background: #e5e5e5 !important;
+	border: 1px solid #b7b7b7 !important;
+	border-bottom: 1px solid #ffffff !important;
+	font-size: 11px !important;
+	padding: 10px 10px 11px 10px !important;
+	text-shadow: 0 1px 0 #ffffff !important;
+	width: 690px !important;
+	
+	border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	
+}
+
+.ddpanel-desc {
+	
+	cursor: help;
+	background: url(icons/help.png) no-repeat top left;
+	height: 19px;
+	width: 20px;
+	
+}
+
+span.text-description {
+	
+	position: absolute;
+	right: 10px;
+	top: 35px;
+	
+}
+
+span.color-description {
+	
+	position: absolute;
+	right: 10px;
+	top: 0;
+	
+}
+
+span.layout-description {
+	
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	
+}
+
+span.select-description {
+	
+	position: absolute;
+	right: 42px;
+	top: 35px;
+	z-index: 50;
+	
+}
+
+span.checkbox-description {
+	
+	position: absolute;
+	right: 79px;
+	top: 6px;
+	z-index: 25;
+	
+}
+
+	span.text-description p, span.select-description p, span.checkbox-description p, span.layout-description p, span.color-description p {
+		
+		background: #eaeaea url(images/white-dot.gif) repeat-x top left;
+		border: 1px solid #c6c6c6;
+		display: none;
+		position: absolute;
+		white-space: pre;
+		padding: 3px 9px;
+		bottom: 15px;
+		right: 7px;
+				
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		
+	}
+		
+		span.text-description p span, span.select-description p span, span.checkbox-description p span, span.layout-description p span, span.color-description p span {
+			
+			background: url(images/tooltip-arrow2.png) no-repeat top left;
+			height: 9px;
+			position: absolute;
+			width: 9px;
+			right: -1px;
+			bottom: -8px;
+						
+		}
+		
+/* BUTTONS */
+
+.button-blue, .button {
+
+	cursor: pointer !important;
+	font: bold 10px Arial, Helvetica, sans-serif !important;
+	padding: 3px 8px 4px 8px !important;
+				
+	border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	
+}
+
+	.button {
+		
+		background: #d4d4d4 url(images/button-bg.gif) repeat-x top left !important;
+		border: 1px solid #b7b7b7 !important;
+		color: #3b3d44 !important;
+		text-shadow: 0 1px 0 #ffffff !important;
+		
+	}
+
+	.button-blue {
+		
+		background: #135fa3 url(images/button-blue-bg.gif) repeat-x top left !important;
+		border: 1px solid #2879cb !important;
+		color: #ffffff !important;
+		text-shadow: 0 1px 0 #16578a !important;
+		
+	}
+
+	.button-blue:hover {
+		
+		background: #197cbf url(images/button-blue-bg-hover.gif) repeat-x top left !important;
+		border-color: #4792df !important;
+		text-shadow: 0 1px 0 #16578a !important;
+		
+	}
+	
+	.upload-image {
+		
+		float: right;
+		margin-top: 5px;
+		
+	}
+	
+/* SELECT AREA */
+
+.ddpanel-select {
+	
+	background: #e5e5e5;
+	border: 1px solid #b7b7b7;
+	border-bottom: 1px solid #ffffff;
+	cursor: pointer;
+	font-size: 11px;
+	height: 34px;
+	padding: 0;
+	position: relative;
+	text-shadow: 0 1px 0 #ffffff;
+	width: 690px;
+	z-index: 30;
+		
+	
+	border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+}
+
+	.ddpanel-select span.current {
+		
+		display: block;
+		line-height: 34px;
+		padding: 0 10px;
+		position: relative;
+		z-index: 20;
+		
+	}
+
+	.ddpanel-select-button, .ddpanel-select-button-active {
+		
+		background: url(images/select-button.gif) no-repeat top left;
+		height: 35px;
+		position: absolute;
+		right: -1px;
+		top: -1px;
+		width: 35px;
+		
+	}
+	
+	.ddpanel-select-button-active {
+		
+		background: url(images/select-button-hover.gif) no-repeat top left;
+		
+	}
+	
+		.ddpanel-select-button span {
+			
+			background: url(images/select-button-hover.gif) no-repeat top left;
+			display: none;
+			height: 35px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 35px;
+			z-index: 15;
+			
+		}
+		
+	.ddpanel-select ul {
+		
+		background: #e4e4e4;
+		border: 1px solid #b7b7b7;
+		border-top: none;
+		display: none;
+		left: -1px;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 34px;
+		width: 690px;
+		z-index: 35;
+
+                    -moz-border-radius:0px 6px 6px 6px;
+
+	/* Linux Browsers */
+	-khtml-border-radius:0px 0px 6px 6px;
+
+	/* Webkit */
+	-webkit-border-radius:0px 0px 6px 6px;
+
+	/* CSS3 */
+	border-radius:0px 0px 6px 6px;
+		
+	}
+	
+		.ddpanel-select ul li {
+			
+			line-height: 35px;
+			padding-left: 20px;
+			margin: 0 !important;
+			position: relative;
+			
+		}
+		
+		.ddpanel-select ul li:hover {
+			
+			color: #ffffff;
+			text-shadow: 0 1px 0 #145ba0;
+			
+		}
+		
+		.ddpanel-select ul li span.text {
+			
+			position: relative;
+			z-index: 20;
+			
+		}
+		
+		.ddpanel-select ul li span.bg {
+			
+			background: url(images/select-li-hover.gif) no-repeat top left;
+			display: none;
+			height: 35px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 690px;
+			z-index: 15;
+			
+		}
+		
+.ddp-submit {
+	
+	text-align: right;
+	
+}
+
+/* TABS */
+
+.ddpanel-tabs {
+	
+	left: -1px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: -32px;
+	
+}
+
+	.ddpanel-tabs li {
+		
+		
+		color: #7b7f8d;
+		cursor: pointer;
+		line-height: 30px;
+		float: left;
+		font-weight: bold;
+		margin: 0 1px 0 0;
+		border-top: 1px solid white;
+		padding: 0 19px 0 15px;
+				
+		background:none repeat scroll 0 0 #e9e9e9;
+		border-bottom:medium none;
+
+		
+	}
+
+        .ddpanel-tabs li:hover {
+
+	
+	
+	
+		text-decoration: underline;
+	
+
+
+	}
+
+	.ddpanel-tabs li.current {
+		line-height: 31px;
+		background: #ffffff;
+		border-top: none;
+		border-bottom: none;
+		color: #3b3d44;
+		padding: 0px 17px 0 17px;
+		
+		-moz-box-shadow : none !important;
+		-webkit-box-shadow: none !important;
+    
+		
+	}
+
+.ddtabs {
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+	
+/* SECTIONS */
+
+#ddpanel-sections {
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+	#ddpanel-sections li {
+		
+		
+	}
+
+	#ddpanel-sections li ul.ddpanel-tabs li, #ddpanel-sections li .ddpanel-select ul li, #ddpanel-sections li .ddtabs li {
+		
+		display: block;
+
+                -moz-border-radius:6px 6px 0px 0px;
+
+                /* Linux Browsers */
+                -khtml-border-radius:6px 6px 0px 0px;
+
+                /* Webkit */
+                -webkit-border-radius:6px 6px 0px 0px;
+
+                /* CSS3 */
+                border-radius:6px 6px 0px 0px;
+		
+	}
+	
+#ddpanel-copyright {
+	
+	width: 750px;
+	margin: 30px auto 0 auto;
+        color: white;
+
+                text-shadow: none !important;
+	
+}
+	
+/* Notifications */
+
+.ddpanel-info-message, .ddpanel-alert-message, .ddpanel-error-message {
+	
+	color: #ffffff;
+	cursor: pointer;
+	height: 24px;
+	margin: 20px auto 0 auto;
+	padding: 10px 20px 0 20px;
+	position: relative;
+	width: 710px;
+	
+}
+
+	.ddpanel-info-message span, .ddpanel-alert-message span, .ddpanel-error-message span {
+		
+		background: url(images/notification-close.gif) no-repeat top left;
+		height: 12px;
+		position: absolute;
+		right: 11px;
+		top: 11px;
+		width: 12px;
+		
+	}
+
+.ddpanel-info-message {
+	
+	background: url(images/notification-info.png) no-repeat top left;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 0 #114586;
+	
+}
+
+.ddpanel-error-message {
+	
+	background: url(images/notification-error.png) no-repeat top left;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 0 #7d0d0d;
+	
+}
+
+.ddpanel-alert-message {
+	
+	background: url(images/notification-alert.png) no-repeat top left;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 0 #599715;
+	
+}
+
+.ddpanel-colorpicker {
+	
+	width: 100px !important;
+	position: absolute;
+	top: -10px;
+	right: 0;
+	
+}
